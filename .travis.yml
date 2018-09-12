@@ -4,4 +4,4 @@ sudo: required
 rvm: 
  - 2.2
 script: 
- - ./hello.rb
+ - bash -x test.sh
