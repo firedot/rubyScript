@@ -1,4 +1,7 @@
 language: ruby
+dist: xenial
+sudo: required
 rvm: 
  - 2.2
- - jruby
+script: 
+ - ./hello.rb
